@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+    width: 30px;
+    height: 1366px;
+    align-items: center;
+}
+
+#navegacao {
+    margin-top: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav .icones {
+    color: white;
+    width: 80px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+img {
+    width: 700px;
+    height: 870px;
+}
+
+.carousel-inner .crpisel-item img {
+    min-width: 1213px;
+    height: 300px;
+}
+
+#descricao {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 50px;
+    z-index: 1;
+    color: white;
+}
+
+#strangerthings {
+    font-family: benguiat;
+    font-weight: bold;
+}
+
+#informacoes {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+#relevancia {
+    color: rgb(97, 168, 97);
+    font-weight: bold;
+}
+
+#ano {
+    margin-left: 10px;
+    color: gray;
+}
+
+#temporada {
+    margin-left: 10px;
+    color: gray;
+}
+
+#hd {
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+#rapariga{
+    font-size: 15px;
+}
